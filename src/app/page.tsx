@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const SOCIALS_LINKS = {
-  twitter: "https://twitter.com/SatoruStarknet",
-  github: "https://github.com/keep-starknet-strange/satoru",
-  telegram: "https://t.me/SatoruStarknet",
-  documentation: "https://book.satoru.run/",
+	twitter: "#",
+	github: "https://github.com/deadalus-labs/",
+	telegram: "#",
+	documentation: "#",
 } as const;
 
 function RadialGradient() {
@@ -27,17 +27,17 @@ function MainContent() {
         className="px-8"
         height={600}
         width={600}
-        alt="Satoru's logo"
+        alt="Deadalus's logo"
       />
       <div>
         <h1 className="text-5xl lg:text-6xl font-bold text-center lg:text-left">
-          SATORU
+          DEADALUS LABS
         </h1>
         <p className="text-lg lg:text-xl mt-6 text-center lg:text-left">
-          Supercharge Your Trading Game on starknet, Cost-Efficient and Blazzing Fast!
+          Fractional Asset Protocol on Starknet.
         </p>
         <p className="text-sm lg:text-lg mt-6 text-center lg:text-left">Inspired by the
-          modular design of GMX V2.</p>
+          modular design of Aragon OSx.</p>
         <div className="flex justify-between items-center mt-12 lg:flex-row flex-col gap-8">
           <a
             href={SOCIALS_LINKS.documentation}
