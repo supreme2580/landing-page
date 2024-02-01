@@ -13,7 +13,7 @@ function RadialGradient() {
       className="blur-[150px] fixed top-1/2 left-0 right-0 -translate-y-1/2 h-[70vh] lg:h-[37rem] -z-10"
       style={{
         background:
-          "radial-gradient(74.28% 74.28% at 50.04% 25.72%, rgba(255, 113, 68, 0.30) 0%, rgba(174, 30, 207, 0.30) 39.58%, rgba(0, 0, 0, 0.00) 100%)",
+          "radial-gradient(74.28% 74.28% at 50.04% 25.72%, rgba(255, 113, 68, 0.30) 0%, rgba(50, 30, 207, 0.30) 39.58%, rgba(0, 0, 0, 0.00) 100%)",
       }}
     />
   );
@@ -23,7 +23,7 @@ function MainContent() {
   return (
     <div className="flex items-center md:justify-center gap-14 min-h-screen max-w-7xl mx-auto px-8 flex-col lg:flex-row pb-6">
       <Image
-        src="/satoru_logo.png"
+        src="/deadalus_logo.png"
         className="px-8"
         height={600}
         width={600}
@@ -34,7 +34,7 @@ function MainContent() {
           DEADALUS LABS
         </h1>
         <p className="text-lg lg:text-xl mt-6 text-center lg:text-left">
-          Fractional Asset Protocol on Starknet.
+          A Fractional Asset Protocol on Starknet.
         </p>
         <p className="text-sm lg:text-lg mt-6 text-center lg:text-left">Inspired by the
           modular design of Aragon OSx.</p>
