@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const SOCIALS_LINKS = {
-	twitter: "#",
-	github: "https://github.com/deadalus-labs/",
-	telegram: "#",
-	documentation: "#",
+  twitter: "#",
+  github: "https://github.com/deadalus-labs/",
+  telegram: "#",
+  documentation: "#",
 } as const;
 
 function RadialGradient() {
@@ -96,7 +96,7 @@ function MainContent() {
 
 function Footer() {
   return (
-    <footer className="lg:fixed bottom-0 left-1/2 -translate-x-1/2 mb-6">
+    <footer className="lg:fixed bottom-0 lg:left-1/2 lg:-translate-x-1/2 mb-6 flex flex-row justify-center items-center">
       <p className="text-2xl md:text-2xl whitespace-nowrap">
         POWERED BY <span className="font-bold">STARKNET</span>
       </p>
