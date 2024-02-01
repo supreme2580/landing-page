@@ -96,7 +96,7 @@ function MainContent() {
 
 function Footer() {
   return (
-    <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 mb-6">
+    <footer className="lg:fixed lg:bottom-0 left-1/2 -translate-x-1/2 mb-6">
       <p className="text-2xl md:text-2xl whitespace-nowrap">
         POWERED BY <span className="font-bold">STARKNET</span>
       </p>
